@@ -1,0 +1,42 @@
+.width-bg {
+  background-image: url("../images/bgmed.jpg");
+  background-size: cover;
+}
+
+.navbar-brand {
+  padding-left: 1rem;
+}
+
+.banner {
+  color: rgb(235, 64, 64);
+  font-size: xx-large;
+  font-family: "Arvo", serif;
+  padding-top: 1rem;
+  padding-left: 5rem;
+}
+
+.container {
+  background-color: whitesmoke;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.center-nav-links {
+  width: 100%;
+  justify-content: center;
+}
+
+.skill-item {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.footer {
+  padding: 15px;
+  background-color: #343a40;
+}
+
+.copyright-info {
+  text-align: right;
+  padding-right: 1rem;
+}
