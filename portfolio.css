@@ -1,5 +1,5 @@
 .width-bg {
-  background-image: url("../images/bgmed.jpg");
+  background-image: url("./images/bgmed.jpg");
   background-size: cover;
 }
 
@@ -11,6 +11,7 @@
   color: rgb(235, 64, 64);
   font-size: xx-large;
   font-family: "Arvo", serif;
+  -webkit-text-stroke: 0.5px black;
   padding-top: 1rem;
   padding-left: 5rem;
 }
@@ -26,10 +27,18 @@
   justify-content: center;
 }
 
+.right-nav-links {
+  justify-content: right;
+  padding-right: 1rem;
+}
+
 .skill-item {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+
+/* .animation {
+} */
 
 .footer {
   padding: 15px;
